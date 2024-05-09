@@ -15,6 +15,7 @@
           v-if="isExclusive"
           class="suggestion-item__exclusive text-primary"
         >
+          <ExclusiveIcon />
           <span v-if="$slots.exclusive">
             <slot name="exclusive"></slot>
           </span>
@@ -37,6 +38,8 @@
 </template>
 
 <script setup>
+import ExclusiveIcon from "~/assets/icons/checklist.svg";
+
 // Reactive refs
 const el = ref(null);
 

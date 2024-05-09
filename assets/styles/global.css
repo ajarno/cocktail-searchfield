@@ -1,0 +1,26 @@
+:root {
+  --color-default: #23222a;
+  --color-primary: #473bf1;
+  --color-secondary: #747387;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ffd4d1;
+}
+
+:root,
+.text-default {
+  color: var(--color-default);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
