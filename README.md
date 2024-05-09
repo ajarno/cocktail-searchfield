@@ -1,8 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Cocktail SearchField
+
+![Cover](https://github.com/ajarno/cocktail-searchfield/assets/38131163/0ab64db2-d3ed-41c5-8a0b-e54a2d68465f)
+
+## Preview 
+
+To check the behavior of the tool, you can directly have a look here: [Netlify - Cocktail SearchField](https://cocktail-searchfield.netlify.app/) 
+
+## Nuxt 3
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+### Setup
 
 Make sure to install the dependencies:
 
@@ -20,7 +28,7 @@ yarn install
 bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
@@ -38,7 +46,7 @@ yarn dev
 bun run dev
 ```
 
-## Production
+### Production
 
 Build the application for production:
 
